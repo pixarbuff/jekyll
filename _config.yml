@@ -13,6 +13,8 @@ highlighter: rouge
 markdown: kramdown
 permalink: :categories/:title
 future: true
+liquid:
+  strict_variables: true
 plugins:
   - jekyll-redirect-from
 defaults:
